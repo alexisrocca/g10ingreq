@@ -38,16 +38,16 @@ def load_data():
     ]
     extra_info = [
         ["CTX-01", "Contexto", "Un laboratorio de Rosario necesita un Sistema de Gestión de Laboratorio para turnos, resultados y comunicación", "—"],
-        ["PROB-01", "Problema", "Retrasos en la entrega de resultados", "Los resultados de análisis no se entregan en tiempo oportuno a los pacientes", "Alta"],
+        ["PROB-01", "Problema", "Retrasos en la entrega de resultados", "El proceso manual con planillas de Excel genera demoras en el procesamiento y entrega de estudios", "Alta"],
         ["PROB-02", "Problema", "Errores de carga de datos por entrada manual", "La entrada manual de datos genera errores frecuentes en la información de pacientes y resultados", "Alta"],
-        ["PROB-03", "Problema", "Duplicidad de turnos", "Se asignan múltiples turnos para el mismo horario causando conflictos y esperas", "Alta"],
+        ["PROB-03", "Problema", "Duplicidad de turnos", "Sin un sistema centralizado, se pueden asignar múltiples turnos en el mismo horario", "Alta"],
         ["PROB-04", "Problema", "Falta de historial digital", "No existe un sistema digitalizado que mantenga el historial completo de estudios por paciente", "Alta"],
-        ["PROB-05", "Problema", "Comunicación ineficiente", "La comunicación entre el laboratorio y pacientes/médicos es lenta e ineficaz", "Media"],
-        ["PROB-06", "Problema", "Gestión de turnos deficiente", "El sistema actual de gestión de turnos es manual y propenso a errores", "Alta"],
+        ["PROB-05", "Problema", "Comunicación ineficiente", "La comunicación telefónica entre el laboratorio y pacientes/médicos es lenta e ineficaz", "Media"],
+        ["PROB-06", "Problema", "Gestión de turnos deficiente", "El sistema actual de gestión de turnos es manual, lento y propenso a errores", "Alta"],
         ["ACT-01", "Actor", "Paciente", "Persona que solicita estudios médicos y recibe resultados", "—"],
-        ["ACT-02", "Actor", "Recepcionista/Administrativo", "Gestiona turnos, atiende pacientes y entrega resultados", "—"],
+        ["ACT-02", "Actor", "Recepcionista/Administrativo", "Gestiona turnos, atiende pacientes, recibe muestras y entrega resultados", "—"],
         ["ACT-03", "Actor", "Técnico de laboratorio", "Realiza análisis clínicos y carga resultados al sistema", "—"],
-        ["ACT-04", "Actor", "Bioquímico responsable", "Valida, revisa y firma los resultados de análisis", "—"],
+        ["ACT-04", "Actor", "Bioquímico responsable", "Valida  y firma los resultados de análisis", "—"],
         ["ACT-05", "Actor", "Médico", "Solicita estudios para pacientes y consulta resultados", "—"],
         ["ACT-06", "Actor", "Administrador del sistema", "Gestiona usuarios, permisos y configuraciones del sistema", "—"],
         ["ACT-07", "Actor", "Director del laboratorio", "Supervisa operaciones generales y accede a reportes estadísticos", "—"]
