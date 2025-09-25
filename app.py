@@ -75,7 +75,7 @@ with tab1:
     problemas_tabla.columns = ["Problemática", "Descripción"]
     st.dataframe(
         problemas_tabla.reset_index(drop=True), 
-        use_container_width=True,
+        width='stretch',
         column_config={
             "Problemática": st.column_config.Column(width="medium"),
             "Descripción": st.column_config.Column(width="large")
@@ -91,7 +91,7 @@ with tab2:
     actores_tabla.columns = ["Actor", "Descripción"]
     st.dataframe(
         actores_tabla.reset_index(drop=True), 
-        use_container_width=True,
+        width='stretch',
         column_config={
             "Actor": st.column_config.Column(width="medium"),
             "Descripción": st.column_config.Column(width="large")
@@ -103,7 +103,7 @@ with tab3:
     st.markdown("**Primero: Requerimientos Funcionales (RF)**")
     st.dataframe(
         df_rf.sort_values(["PRIORIDAD", "ID"]).reset_index(drop=True), 
-        use_container_width=True,
+        width='stretch',
         column_config={
             "ID": st.column_config.Column(width="small"),
             "TIPO": st.column_config.Column(width="medium"),
@@ -115,7 +115,7 @@ with tab3:
     st.markdown("**Luego: Requerimientos No Funcionales (RNF)**")
     st.dataframe(
         df_rnf.sort_values(["PRIORIDAD", "ID"]).reset_index(drop=True), 
-        use_container_width=True,
+        width='stretch',
         column_config={
             "ID": st.column_config.Column(width="small"),
             "TIPO": st.column_config.Column(width="medium"),
